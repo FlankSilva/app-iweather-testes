@@ -22,9 +22,6 @@ export function Search() {
 
     const response = await getCityByNameService(city);
 
-    console.log(response);
-    
-
     setCities(response);
     setIsLoading(false);
   }
